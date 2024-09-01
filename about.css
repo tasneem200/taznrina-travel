@@ -1,0 +1,80 @@
+.intro {
+    margin-top: 3vw;
+    text-align: center;
+    font-family: tinos;
+    font-size: 1.2em;
+}
+
+#banner {
+    background-color: #CD4631;
+    justify-content: center;
+    position: absolute;
+    width: 100%; 
+    top:0;
+    height: 12vw;
+    /* margin-bottom:1000px; */
+}
+
+
+.image-stack {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.image-stack img {
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+.image-stack img.top {
+    width: 20%;
+    z-index: 10; /* Ensures the top image appears above the bottom image */
+}
+
+.row {
+  justify-content: flex-start; /* Ensures the content is aligned to the left */
+}
+
+#title{
+    position: relative;
+    margin-top: 12vw;
+    left: 10%;
+    font-family: tinos;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+p {
+    font-family:tinos;
+    font-size: 1.1em;
+}
+
+a {
+    font-family:tinos;
+    font-size: 1.2em;
+    color:#4F9D69;
+}
+
+a:hover {
+    color:#CD4631;
+}
+#ban_title {
+    font-family: ephesis;
+    font-size:4vw;
+    color: #000000;
+    text-align: center;
+    padding-top: 2vw;
+    position: relative;
+    
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 5s linear;
+}

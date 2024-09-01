@@ -1,0 +1,275 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" type="text/css" href="home.css"/>
+        <link rel="stylesheet" type="text/css" href="food.css"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf8" />
+        <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
+        <title>International Bites</title>
+    </head>
+
+    <body>
+        <!-- nav bar inspired by bootstrap website -->
+        <nav class="navbar navbar-expand-lg fixed-top navbar-light" style="background-color: #28587B;">
+
+            <div class="navbar-brand pull-left" >
+                <img id="logo" src="assets/world.png" alt="image of globe" width="50">
+                <span class="navbar-text" id = "logot">T&R</span>
+                
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about-us.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="food.html">Food</a>
+                </li>
+              </ul>
+            </div>
+      </nav>
+
+        <div class="jumbotron jumbotron-fluid" id = "banner">
+            <div class="container">
+                <h1 class="display-4" id = "ban_title">Food</h1>
+            </div>
+            <p class="intro">Here we'll be posting foods we've tried around the world!
+                <br> To see more information about the restaurant, hover over the image!
+            </p>
+
+            <div class="d-flex justify-content-center bar">
+                <a class="loc-link button" href="#chicago" class="nav-link">ILLINOIS</a>
+                <a class="loc-link button" href="#france" class="nav-link">FRANCE</a>
+                <a class="loc-link button" href="#california" class="nav-link">CALIFORNIA</a>
+                <a class="loc-link button" href="#florida" class="nav-link">FLORIDA</a>
+            </div>
+        </div>
+
+        <div id="chicago" class="container pt-5 pt-sm-7  pt-xl-2 pt-lg-3">
+            <p id="top-header">Chicago, Illinois</p>
+                <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+                    <img
+                    src="assets/chi_melt.JPG"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Dessert at melt n dip!"
+                    title="Melt N Dip, 5716 W Touhy Ave, Niles, IL 60714"
+                    />
+                    <img
+                    src="assets/chi_lattes.JPG"
+                    class="w-100 shadow-1-strong rounded mb-4 h-50"
+                    alt="Lattes at Chiqueolatte in Chicago!"
+                    title="Chiqueolatte, 2643 N Milwaukee Ave, Chicago, IL 60647"
+                    />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                    src="assets/chi_bao.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="Photo of Bao Buns."
+                    title="Little Bad Wolf, 1541 W Bryn Mawr Ave, Chicago, IL 60660"
+                    />
+                    <img
+                    src="assets/chi_yolk.JPG"
+                    class="w-100 shadow-1-strong rounded mb-4 h-50 "
+                    alt="Spinach frittata from Yolk Test Kitchen in Chicago!"
+                    title="Yolk Test Kitchen, 1767 N Milwaukee Ave, Chicago, IL 60647"
+                    />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                    src="assets/chi_sand.JPG"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Photo of a mediterranean panini from Papagalinos in Chicago!"
+                    title="Papagalinos Cafe, 9014 N Milwaukee Ave #1537, Niles, IL 60714"
+                    />
+                    <img
+                    src="assets/chi_sushi.JPG"
+                    class="w-100 shadow-1-strong rounded mb-4 h-50 "
+                    alt="Photo of sushi roll."
+                    title="Sushi World, 6251 N McCormick Blvd, Chicago, IL 60659"
+                    />
+                </div>
+                </div>
+        </div>
+
+
+        <div id="france" class="container">
+            <p id="loc-header">Paris, France</p>
+                <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+                    <img
+                    src="assets/france-pasta.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Pasta in France!"
+                    title="Restaurant Pastamore, 37 Bd du Montparnasse, 75006 Paris, France"
+                    />
+                    <img
+                    src="assets/france-mocktail.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="A fruit mocktail in France!"
+                    title="MAZE, 13 Rue Tiquetonne, 75002 Paris, France"
+                    />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                    src="assets/france-sushi.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="Sushi on a screen table."
+                    title="Kyo, 9 Rue de la Verrerie, 75004 Paris, France"
+                    />
+                    <img
+                    src="assets/france-padthai.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="Pad thai from France!"
+                    title="BIEN BIEN, 30 Bis Rue Bergère, 75009 Paris, France"
+                    />
+                    
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    
+                    <img
+                    src="assets/france-mexican.JPG"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="Mexican food (burrito) in France!"
+                    title="El Chingon, 66 Rue du Faubourg Montmartre, 75009 Paris, France"
+                    />
+                    <img
+                    src="assets/france-pastries.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Pastries from the airport in Paris!"
+                    title="Cafe Eiffel, 95700 Roissy-en-France, France"
+                    />
+                </div>
+                </div>
+        </div>
+
+        <div id="california" class="container">
+            <p id="loc-header">Los Angeles, California</p>
+                <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+                    <img
+                    src="assets/cali-inout.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Burgers and fries in California!"
+                    title="In-N-Out Burger, 9149 S Sepulveda Blvd, Los Angeles, CA 90045"
+                    />
+                    <img
+                    src="assets/cali-poke.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="A poke bowl in California!"
+                    title="Noshi Sushi, 4430 Beverly Blvd, Los Angeles, CA 90004"
+                    />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                    src="assets/cali-wokcano.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Asian food in California!"
+                    title="Wokcano, 800 W 7th St, Los Angeles, CA 90017"
+                    />
+                    <img
+                    src="assets/cali-panini.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="Italian Panini in Little Italy, California!"
+                    title="Buon Appetito Restaurant, 1609 India St, San Diego, CA 92101"
+                    />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                    src="assets/cali-tapas.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="Shrimp Ceviche at a Tapas bar in California!"
+                    title="Strada Eateria & Bar, 825 James M Wood Blvd #90015"
+                    />
+                    <img
+                    src="assets/cali-salad.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="A taco chicken salad in California!"
+                    title="Guerilla Tacos, 1261 Sunset Blvd, Los Angeles, CA 90026"
+                    />
+                </div>
+                </div>
+        </div>
+
+        <div id="florida" class="container">
+            <p id="loc-header">Miami, Florida</p>
+                <div class="row">
+                <div class="col-lg-4 col-md-12 mb-4 mb-lg-0 ">
+                    <img
+                    src="assets/fl-sushi.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Sushi in Florida!"
+                    title="Sushi Song, 209 SW 2nd Ave, Fort Lauderdale, FL 33301"
+                    />
+                    <img
+                    src="assets/fl-pho.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 h-50 "
+                    alt="Spicy beef pho in Florida!"
+                    title="Pho 79, 1415 SW 107th Ave, Miami, FL 33174"
+                    />
+                    
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                    src="assets/fl-shake.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="A Reese's shake in Florida!"
+                    title="Icy-N-Spicy, 1250 Ocean Dr, Miami Beach, FL 33139"
+                    />
+                    <img
+                    src="assets/florida-taco.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="A poke taco in Florida!"
+                    title="Tacocraft Taqueria & Tequila Bar, 510 N Federal Hwy, Fort Lauderdale, FL 33308"
+                    />
+                </div>
+
+                <div class="col-lg-4 mb-4 mb-lg-0">
+                    <img
+                    src="assets/fl-pizza.jpg"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="A chicken BBQ Pizza in Miami!"
+                    title="Grafa Pizza, 1357 Washington Ave, Miami Beach, FL 33139"
+                    />
+                    <img
+                    src="assets/fl-moshimoshi.JPG"
+                    class="w-100 shadow-1-strong rounded mb-4 "
+                    alt="More sushi rolls in Florida!"
+                    title="Moshi Moshi, 1448 Washington Ave, Miami Beach, FL 33139"
+                    />
+                </div>
+                </div>
+        </div>
+
+        
+        <center><a class="loc-link button" href="#banner" class="nav-link">JUMP TO TOP</a></center>
+
+
+        <script src="script.js"></script> 
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    </body>
+</html>
+        

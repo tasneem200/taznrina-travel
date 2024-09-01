@@ -1,0 +1,139 @@
+.uniform-height {
+    height: 25vw; 
+    object-fit: cover; 
+    width: auto; 
+    max-width: 100%;
+}
+
+#loc-row{
+    
+    background-color: #28587B;
+}
+
+#banner {
+    background-color: #4F9D69;
+    position: absolute;
+    width: 100%; 
+    top:11px;
+    
+    height: 12vw;
+    text-align: center;
+}
+
+#ban_title {
+    font-family: ephesis;
+    font-size:4vw;
+    color: #000000;
+    padding-top: 2vw;
+    
+}
+
+.intro {
+    margin-top: 3vw;
+    text-align: center;
+    font-family: tinos;
+    font-size: 1.2em;
+}
+
+#loc-header{
+    position: relative;
+    margin-top: 8vw;
+    font-family: tinos;
+    font-size: 1.5em;
+    font-weight: bold;
+    
+}
+
+#top-header {
+    margin-top: 20vw;
+    position: relative;
+    font-family: tinos;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.row {
+  justify-content: flex-start; /* Ensures the content is aligned to the left */
+}
+
+.desc {
+    margin-top: 0vw;
+}
+
+.button {
+    background-color: #28587B;
+    padding: 10px ;
+    color: #F1EADC;
+    text-align: center;
+    margin: 15px;
+    border-radius: 10px;
+    white-space: nowrap;
+    width: 15vw;
+}
+
+.button:hover {
+    background-color:#CD4631;
+}
+
+#gridd {
+    margin-top: 12em; /* Responsive margin */
+    align-items: center;
+} 
+
+.card{
+    background-color: #000000;
+    color: #F1EADC;
+}
+
+.card-img-top{
+    object-fit: cover;
+    width:100%; 
+    height: 20vh;
+    
+}
+.top-buffer { 
+    margin-top:20px; 
+}
+
+
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 5s linear;
+}
+
+.loc-link {
+    font-size: calc(5px + 1vw);
+    font-family: tinos;
+    color:#F1EADC;
+    text-decoration: none;
+    justify-content: center;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+a:hover {
+    color:#F1EADC;
+}
+
+.bar a {
+    margin-right: 0vw;/* Adds spacing to the right of each link */
+    text-decoration: none; /* Optional: removes the underline from links */
+}
+
+.pic {
+    width: 15vw;
+    height: calc(width*1.5);
+    object-fit: cover;
+}
+
+.enlarged {
+    width: 15vw;
+    height: 20vw;
+    object-fit: cover;
+}

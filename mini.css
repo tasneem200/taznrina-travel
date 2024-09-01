@@ -1,0 +1,13 @@
+
+
+#gridd {
+    margin-top: 12em; /* Responsive margin */
+    align-items: center;
+} 
+
+#back {
+    margin-top: 0em;
+    margin-left: 5em;
+    background-color: black;
+    
+}

@@ -1,0 +1,99 @@
+@font-face {
+    font-family: euphoria-script;
+    src: url(assets/EuphoriaScript-Regular.ttf);
+}
+
+@font-face {
+    font-family: tinos;
+    src: url(assets/Tinos-Regular.ttf);
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+@font-face {
+    font-family: ephesis;
+    src: url(assets/Ephesis-Regular.ttf);
+}
+
+body {
+    padding-top:90px;
+    background-color: #F1EADC;
+    /* width:90vw; */
+}
+
+.navbar-brand{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 10%;
+}
+
+#logot{
+    position: absolute;
+    transform: translate(-8px, 15px);
+    font-family: tinos;
+    font-size: 1.5vw;
+    color: black;
+}
+
+
+.navbar {
+    background-color: #28587B;
+   
+    justify-content: center;
+    
+    display: flex;
+    position: absolute;
+    width: 100%; 
+    top:0;
+    right:0;
+    z-index: 100;
+}
+
+.navbar a {
+    display: block;
+    color: white;
+    padding: 14px;
+    font: verdana;
+    
+}
+
+
+#main {
+    font-family: ephesis;
+    font-size:7vw;
+    color: #28587B;
+    position: absolute;
+    top: 12vw;
+    left: -5vw;
+ }
+
+#desc {
+    font-family: tinos;
+    font-size: 1.5vw;
+    position: absolute;
+    top: 20vw;
+    left: -5vw;
+}
+
+.tr_img {
+    width: 30vw;
+    height: 45vw;
+    border-radius: 50%;
+    border: 8px solid #28587B ;
+    position: absolute;
+    top: 3vw;
+    left: 5vw;
+}
+
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
+.spin {
+    animation: spin 5s linear;
+}
