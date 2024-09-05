@@ -24,6 +24,15 @@ body {
     /* width:90vw; */
 }
 
+.glow1 {
+    box-shadow: 0 0 1em #28587B;
+}
+
+.navbar {
+    position: fixed !important; 
+}
+
+
 .navbar-brand{
     position: absolute;
     left: 0;
@@ -83,7 +92,7 @@ body {
     width: 30vw;
     height: 45vw;
     border-radius: 50%;
-    border: 8px solid #28587B ;
+    border: 8px solid #28587B;
     position: absolute;
     top: 3vw;
     left: 5vw;

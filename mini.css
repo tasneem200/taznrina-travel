@@ -1,13 +1,36 @@
 
-
 #gridd {
     margin-top: 12em; /* Responsive margin */
     align-items: center;
 } 
 
 #back {
-    margin-top: 0em;
-    margin-left: 5em;
-    background-color: black;
+    background-color: black !important; /* Change this to your desired color */
+    color: #ffffff; /* Change this to the text color you want */
+}
+
+.figure-caption{
+    font-family: tinos;
+    color: black;
+    margin-top: -1rem;
+    font-weight: bold;
+}
+
+#california {
+    justify-content: center;
     
+}
+
+
+.col-sm {
+    align-items: left;
+}
+
+img{
+    border: 2px solid black;
+}
+
+.header {
+    font-size: 1.5rem;
+    font-weight: bold;
 }

@@ -96,6 +96,30 @@
     margin-top:20px; 
 }
 
+.card-body {
+    display: flex;
+    flex-direction: column; /* Keep title above */
+    align-items: flex-start;
+}
+
+.card-body h5 {
+    margin-bottom: 0.5rem; /* Add some space between the title and the content below */
+}
+
+.card-body .d-flex {
+    display: flex;
+    align-items: left;
+    gap: 0rem; /* Add space between image and text */
+    margin-top: 1rem;
+}
+
+.card-body img {
+    width: 3rem; /* Use relative units */
+}
+
+.card-body p {
+    margin-left: 0.5rem; /* Add small space between the image and text */
+}
 
 
 @keyframes spin {
