@@ -54,7 +54,7 @@
 
 
 .row {
-  justify-content: flex-start; /* Ensures the content is aligned to the left */
+  justify-content: flex-start; 
 }
 
 .desc {
@@ -80,6 +80,9 @@
     margin-top: 12em; /* Responsive margin */
     align-items: center;
 } 
+/* .col-sm {
+    margin-bottom: 20px;
+} */
 
 .card{
     background-color: #000000;

@@ -11,18 +11,24 @@
     position: absolute;
     width: 100%; 
     top:0;
-    height: 12vw;
-    /* margin-bottom:1000px; */
+    height: 20vh;
+    align-items: center;
 }
 
 #ban_title {
     font-family: ephesis;
-    font-size:4vw;
+    font-size:5vw;
     color: #000000;
     text-align: center;
-    padding-top: 2vw;
+    padding-top: 8vw;
     position: relative;
     
+}
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+
 }
 
 

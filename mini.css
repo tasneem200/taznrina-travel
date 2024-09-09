@@ -9,6 +9,7 @@
     color: #ffffff; /* Change this to the text color you want */
 }
 
+
 .figure-caption{
     font-family: tinos;
     color: black;
@@ -18,9 +19,8 @@
 
 #california {
     justify-content: center;
-    
-}
 
+}
 
 .col-sm {
     align-items: left;
@@ -31,6 +31,15 @@ img{
 }
 
 .header {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
+    text-align: center;
 }
+
+.stamp-img {
+    width: 8em; /* Adjust maximum width of the stamp for larger screens */
+    transform: rotate(-10deg); /* Diagonal rotation */
+    border: none !important;
+    margin-right: 10em;
+}
+
